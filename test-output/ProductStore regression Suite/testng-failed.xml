@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [ProductStore regression Suite]">
+  <test thread-count="1" parallel="classes" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.UserLogoutTest">
+        <methods>
+          <include name="userLogout"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserLogoutTest -->
+      <class name="tests.UserLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSubmitLogin"/>
+        </methods>
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.UserSignUpTest">
+        <methods>
+          <include name="userSubmitSignup"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCloseSignup"/>
+        </methods>
+      </class> <!-- tests.UserSignUpTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [ProductStore regression Suite] -->

@@ -1,0 +1,16 @@
+tests\ContinueOrder.class
+tests\DeleteOrder.class
+tests\PurchaseProduct.class
+tests\UserLoginTest.class
+tests\AddToCart.class
+tests\PurchaseProductFromFilter.class
+tests\PurchaseFromSecondPage.class
+tests\UserLogoutTest.class
+utilities\Helper.class
+tests\InvalidSignUpTest.class
+tests\UserSignUpTest.class
+tests\ContactAs.class
+tests\InvalidLoginTest.class
+tests\InvalidOrder.class
+tests\InvalidAddToCart.class
+tests\TestBase.class

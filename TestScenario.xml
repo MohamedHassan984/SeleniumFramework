@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ProductStore Login signup Suite">
+
+  <test name="NegativeSignUpTest">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+          <class name="tests.InvalidSignUpTest"/>
+    </classes>
+  </test> 
+
+  <test name="Test Login">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserSignUpTest"/>
+      <class name="tests.UserLoginTest"/>   
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test> 
+  
+ 
+  <test name="Negative Login Test">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+          <class name="tests.InvalidLoginTest"/>  
+    </classes>
+  </test> 
+      
+  <test name="Confirm product">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>   
+      <class name="tests.PurchaseProduct"/>
+      <class name="tests.AddToCart"/>
+      <class name="tests.ContinueOrder"/>
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test>   
+
+   <test name="Delete product">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>   
+      <class name="tests.PurchaseProduct"/>
+      <class name="tests.AddToCart"/>
+      <class name="tests.DeleteOrder"/>
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test>
+
+  <test name="Test Filter">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>
+      <class name="tests.PurchaseProductFromFilter"/>         
+      <class name="tests.AddToCart"/>
+      <class name="tests.ContinueOrder"/>      
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test> 
+  
+  <test name="Test Second Page">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>
+      <class name="tests.PurchaseFromSecondPage"/>         
+      <class name="tests.AddToCart"/>
+      <class name="tests.ContinueOrder"/>      
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test> 
+ 
+  <test name="Test Contact">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>   
+      <class name="tests.ContactAs"/>      
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test> 
+  
+  <test name="Test Invalid Order">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>   
+      <class name="tests.PurchaseProduct"/>
+      <class name="tests.AddToCart"/>
+      <class name="tests.InvalidOrder"/>
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test> 
+  
+  <test name="Test Invalid Add To Cart">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.UserLoginTest"/>   
+      <class name="tests.InvalidAddToCart"/>
+      <class name="tests.UserLogoutTest"/>      
+    </classes>
+  </test> 
+  
+  <test name="Purchase product Without Login">
+  <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.PurchaseProduct"/>
+      <class name="tests.AddToCart"/>
+      <class name="tests.ContinueOrder"/>
+    </classes>
+  </test>   
+   
+</suite> 

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ProductStore Login signup Suite]" verbose="0">
+  <test thread-count="5" name="Test Filter(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.UserLogoutTest">
+        <methods>
+          <include name="userLogout"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserLogoutTest -->
+      <class name="tests.AddToCart">
+        <methods>
+          <include name="startDriver"/>
+          <include name="AddProduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddToCart -->
+      <class name="tests.PurchaseProductFromFilter">
+        <methods>
+          <include name="startDriver"/>
+          <include name="Purchaseproduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.PurchaseProductFromFilter -->
+      <class name="tests.UserLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSubmitLogin"/>
+        </methods>
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.ContinueOrder">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="confirmProduct"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.ContinueOrder -->
+    </classes>
+  </test> <!-- Test Filter(failed) -->
+  <test thread-count="5" name="Test Second Page(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.UserLogoutTest">
+        <methods>
+          <include name="userLogout"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserLogoutTest -->
+      <class name="tests.AddToCart">
+        <methods>
+          <include name="startDriver"/>
+          <include name="AddProduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddToCart -->
+      <class name="tests.UserLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSubmitLogin"/>
+        </methods>
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.ContinueOrder">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="confirmProduct"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.ContinueOrder -->
+      <class name="tests.PurchaseFromSecondPage">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="purchaseSecondPage"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.PurchaseFromSecondPage -->
+    </classes>
+  </test> <!-- Test Second Page(failed) -->
+  <test thread-count="5" name="Test Contact(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.UserLogoutTest">
+        <methods>
+          <include name="userLogout"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserLogoutTest -->
+      <class name="tests.UserLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSubmitLogin"/>
+        </methods>
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.ContactAs">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserCanContact"/>
+        </methods>
+      </class> <!-- tests.ContactAs -->
+    </classes>
+  </test> <!-- Test Contact(failed) -->
+  <test thread-count="5" name="Test Invalid Order(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.UserLogoutTest">
+        <methods>
+          <include name="userLogout"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserLogoutTest -->
+      <class name="tests.AddToCart">
+        <methods>
+          <include name="startDriver"/>
+          <include name="AddProduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddToCart -->
+      <class name="tests.UserLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSubmitLogin"/>
+        </methods>
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.InvalidOrder">
+        <methods>
+          <include name="invalidCreditCard"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="invalidData"/>
+          <include name="screenshotOnFailure"/>
+          <include name="invalidName"/>
+          <include name="dismissOtherData"/>
+        </methods>
+      </class> <!-- tests.InvalidOrder -->
+      <class name="tests.PurchaseProduct">
+        <methods>
+          <include name="startDriver"/>
+          <include name="Purchaseproduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.PurchaseProduct -->
+    </classes>
+  </test> <!-- Test Invalid Order(failed) -->
+  <test thread-count="5" name="Test Invalid Add To Cart(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.UserLogoutTest">
+        <methods>
+          <include name="userLogout"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.UserLogoutTest -->
+      <class name="tests.UserLoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userSubmitLogin"/>
+        </methods>
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.InvalidAddToCart">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="InvalidCart"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.InvalidAddToCart -->
+    </classes>
+  </test> <!-- Test Invalid Add To Cart(failed) -->
+  <test thread-count="5" name="Purchase product Without Login(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.AddToCart">
+        <methods>
+          <include name="startDriver"/>
+          <include name="AddProduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddToCart -->
+      <class name="tests.ContinueOrder">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="confirmProduct"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.ContinueOrder -->
+      <class name="tests.PurchaseProduct">
+        <methods>
+          <include name="startDriver"/>
+          <include name="Purchaseproduct"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.PurchaseProduct -->
+    </classes>
+  </test> <!-- Purchase product Without Login(failed) -->
+</suite> <!-- Failed suite [ProductStore Login signup Suite] -->

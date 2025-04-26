@@ -1,0 +1,10 @@
+pages\UserLoginPage.class
+pages\SuccessPage.class
+pages\ContactAsPage.class
+pages\ProductPage.class
+pages\CartPage.class
+pages\HomePage.class
+pages\UserInvalidLoginPage.class
+pages\PageBase.class
+pages\PlaceOrderPage.class
+pages\UserSignUpPage.class
