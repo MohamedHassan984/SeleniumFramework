@@ -89,7 +89,7 @@
     </classes>
   </test> 
   
-  <test name="Test Invalid Add To Cart">
+  <test name="Test Add To Cart Without Login">
   <parameter name ="browser" value="chrome"></parameter>
     <classes>
       <class name="tests.UserLoginTest"/>   
